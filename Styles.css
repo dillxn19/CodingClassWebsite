@@ -1,0 +1,91 @@
+*{
+    font-family: verdana;
+  }
+
+.intro{
+  border: 5px solid black;
+  text-align: center;
+  
+}
+  
+  
+.container{
+  border: 1px solid black;
+  display: flex;
+    
+}
+  
+.container div{
+  width: 33.3%;
+}
+
+h1{
+  margin-bottom: 10px;
+
+}
+  
+  
+p{
+
+  margin: 20px;
+}
+  
+  
+.formContainer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: beige;
+}
+
+.signUpContainer{
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+table{
+  width: 100%;
+}
+
+
+.imgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+img{
+  height: 70%;
+  border: 10px solid black;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+img:hover{
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease-in-out;
+}
+ 
+label{
+  font-family: Lucida, cursive;
+  margin: 10px;
+}
+  
+input, select, textarea {
+  display: block;
+  background-color: rgba(243, 243, 243, 0.966);
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+
+}
